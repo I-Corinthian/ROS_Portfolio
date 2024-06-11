@@ -1,0 +1,32 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating dds_package.egg-info
+writing dds_package.egg-info/PKG-INFO
+writing dependency_links to dds_package.egg-info/dependency_links.txt
+writing entry points to dds_package.egg-info/entry_points.txt
+writing requirements to dds_package.egg-info/requires.txt
+writing top-level names to dds_package.egg-info/top_level.txt
+writing manifest file 'dds_package.egg-info/SOURCES.txt'
+reading manifest file 'dds_package.egg-info/SOURCES.txt'
+writing manifest file 'dds_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/lib/python3.10/site-packages/dds-package.egg-link (link to .)
+Installing dds_package script to /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/lib/dds_package
+
+Installed /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/build/dds_package
+running symlink_data
+creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/ament_index
+creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/ament_index/resource_index
+creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/ament_index/resource_index/packages
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/build/dds_package/resource/dds_package -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/ament_index/resource_index/packages
+creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/dds_package/launch
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/build/dds_package/launch/rsp.launch.py -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/dds_package/launch
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/build/dds_package/launch/launch_gazebo_sim.launch.py -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/dds_package/launch
+creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/dds_package/urdf
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/build/dds_package/urdf/robot_core.xacro -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/dds_package/urdf
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/build/dds_package/urdf/robot.urdf.xacro -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/dds_package/urdf
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/build/dds_package/urdf/gazebo_control.xacro -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/dds_package/urdf
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/build/dds_package/urdf/inertial_macros.xacro -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/dds_package/urdf
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/build/dds_package/package.xml -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/differential_drive_sim/ros_ws/install/dds_package/share/dds_package

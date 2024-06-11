@@ -1,0 +1,3 @@
+[console_scripts]
+dds_package = dds_package.node:main
+
