@@ -18,8 +18,6 @@ def generate_launch_description():
         get_package_share_directory('turtlebot3_navigation2'), 'launch', 'navigation2.launch.py'
     )
 
-    map_file_path = os.path.expanduser('~/Documents/map/my_map.yaml')
-
     #gazebo launch description
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([gazebo_launch_path])
@@ -28,14 +26,11 @@ def generate_launch_description():
     #navigation2 launch description with launch arguments
     nav2sim = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([nav2_launch_path]),
-        launch_arguments={'use_sim_time': 'True', 'map': map_file_path}.items()
+        launch_arguments={'use_sim_time':'True','map':"/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/src/turtle_nav_sim/map/sim_map.yaml"}.items()
     )
-
-    #event handler to start the navigation2 launch after gazebo has started
-    delay_timer = TimerAction(period=15.0, actions=[nav2sim])
 
     # Launch
     return LaunchDescription([
+        nav2sim,
         gazebo,
-        delay_timer,
     ])

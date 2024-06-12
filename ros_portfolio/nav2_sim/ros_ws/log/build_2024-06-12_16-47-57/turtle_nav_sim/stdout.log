@@ -1,6 +1,4 @@
 running develop
-/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
-  warnings.warn(
 running egg_info
 creating turtle_nav_sim.egg-info
 writing turtle_nav_sim.egg-info/PKG-INFO
@@ -25,5 +23,6 @@ creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_si
 symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/launch/slam_map_genarate.launch.py -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/launch
 symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/launch/nav2_sim.launch.py -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/launch
 creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/map
-symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/map/my_map.yaml -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/map
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/map/sim_map.yaml -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/map
+symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/map/sim_map.pgm -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/map
 symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/package.xml -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim

@@ -3,7 +3,8 @@ setup.cfg
 setup.py
 launch/nav2_sim.launch.py
 launch/slam_map_genarate.launch.py
-map/my_map.yaml
+map/sim_map.pgm
+map/sim_map.yaml
 resource/turtle_nav_sim
 turtle_nav_sim/__init__.py
 turtle_nav_sim.egg-info/PKG-INFO
