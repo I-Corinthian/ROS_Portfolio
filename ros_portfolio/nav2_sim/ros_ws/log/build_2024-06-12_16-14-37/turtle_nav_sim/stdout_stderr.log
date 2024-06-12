@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing turtle_nav_sim.egg-info/PKG-INFO
+writing dependency_links to turtle_nav_sim.egg-info/dependency_links.txt
+writing entry points to turtle_nav_sim.egg-info/entry_points.txt
+writing requirements to turtle_nav_sim.egg-info/requires.txt
+writing top-level names to turtle_nav_sim.egg-info/top_level.txt
+reading manifest file 'turtle_nav_sim.egg-info/SOURCES.txt'
+writing manifest file 'turtle_nav_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/lib/python3.10/site-packages/turtle-nav-sim.egg-link (link to .)
+Installing turtle_nav_sim script to /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/lib/turtle_nav_sim
+
+Installed /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim
+running symlink_data

@@ -1,0 +1,31 @@
+[0.548s] Invoking command in '/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim': PYTHONPATH=/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/prefix_override:/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/build --no-deps symlink_data
+[0.783s] running develop
+[0.784s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.784s]   warnings.warn(
+[0.964s] running egg_info
+[0.965s] creating turtle_nav_sim.egg-info
+[0.965s] writing turtle_nav_sim.egg-info/PKG-INFO
+[0.965s] writing dependency_links to turtle_nav_sim.egg-info/dependency_links.txt
+[0.965s] writing entry points to turtle_nav_sim.egg-info/entry_points.txt
+[0.965s] writing requirements to turtle_nav_sim.egg-info/requires.txt
+[0.965s] writing top-level names to turtle_nav_sim.egg-info/top_level.txt
+[0.966s] writing manifest file 'turtle_nav_sim.egg-info/SOURCES.txt'
+[0.967s] reading manifest file 'turtle_nav_sim.egg-info/SOURCES.txt'
+[0.967s] writing manifest file 'turtle_nav_sim.egg-info/SOURCES.txt'
+[0.969s] running build_ext
+[0.970s] Creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/lib/python3.10/site-packages/turtle-nav-sim.egg-link (link to .)
+[0.970s] Installing turtle_nav_sim script to /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/lib/turtle_nav_sim
+[0.970s] 
+[0.971s] Installed /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim
+[0.971s] running symlink_data
+[0.971s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/ament_index
+[0.971s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/ament_index/resource_index
+[0.971s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/ament_index/resource_index/packages
+[0.971s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/resource/turtle_nav_sim -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/ament_index/resource_index/packages
+[0.971s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/launch
+[0.972s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/launch/slam_map_genarate.launch.py -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/launch
+[0.972s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/launch/nav2_sim.launch.py -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/launch
+[0.972s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/map
+[0.972s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/map/my_map.yaml -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim/map
+[0.972s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/package.xml -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/share/turtle_nav_sim
+[0.998s] Invoked command in '/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim' returned '0': PYTHONPATH=/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/prefix_override:/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/install/turtle_nav_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/nav2_sim/ros_ws/build/turtle_nav_sim/build --no-deps symlink_data
