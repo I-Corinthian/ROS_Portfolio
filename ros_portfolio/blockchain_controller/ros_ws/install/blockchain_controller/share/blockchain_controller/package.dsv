@@ -1,0 +1,9 @@
+source;share/blockchain_controller/hook/pythonpath.ps1
+source;share/blockchain_controller/hook/pythonpath.dsv
+source;share/blockchain_controller/hook/pythonpath.sh
+source;share/blockchain_controller/hook/ament_prefix_path.ps1
+source;share/blockchain_controller/hook/ament_prefix_path.dsv
+source;share/blockchain_controller/hook/ament_prefix_path.sh
+source;../../build/blockchain_controller/share/blockchain_controller/hook/pythonpath_develop.ps1
+source;../../build/blockchain_controller/share/blockchain_controller/hook/pythonpath_develop.dsv
+source;../../build/blockchain_controller/share/blockchain_controller/hook/pythonpath_develop.sh

@@ -1,0 +1,3 @@
+[console_scripts]
+chain_teleop = blockchain_controller.teleop:main
+

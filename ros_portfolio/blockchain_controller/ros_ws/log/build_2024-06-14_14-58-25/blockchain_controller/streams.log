@@ -1,0 +1,25 @@
+[1.388s] Invoking command in '/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller': PYTHONPATH=/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller/prefix_override:/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller/build --no-deps symlink_data
+[1.611s] running develop
+[1.629s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.629s]   warnings.warn(
+[1.775s] running egg_info
+[1.775s] creating blockchain_controller.egg-info
+[1.776s] writing blockchain_controller.egg-info/PKG-INFO
+[1.776s] writing dependency_links to blockchain_controller.egg-info/dependency_links.txt
+[1.776s] writing entry points to blockchain_controller.egg-info/entry_points.txt
+[1.776s] writing requirements to blockchain_controller.egg-info/requires.txt
+[1.777s] writing top-level names to blockchain_controller.egg-info/top_level.txt
+[1.777s] writing manifest file 'blockchain_controller.egg-info/SOURCES.txt'
+[1.778s] reading manifest file 'blockchain_controller.egg-info/SOURCES.txt'
+[1.778s] writing manifest file 'blockchain_controller.egg-info/SOURCES.txt'
+[1.779s] running build_ext
+[1.779s] Creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/lib/python3.10/site-packages/blockchain-controller.egg-link (link to .)
+[1.780s] 
+[1.780s] Installed /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller
+[1.780s] running symlink_data
+[1.781s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/share/ament_index
+[1.781s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/share/ament_index/resource_index
+[1.781s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/share/ament_index/resource_index/packages
+[1.781s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller/resource/blockchain_controller -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/share/ament_index/resource_index/packages
+[1.781s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller/package.xml -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/share/blockchain_controller
+[1.802s] Invoked command in '/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller' returned '0': PYTHONPATH=/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller/prefix_override:/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller/build --no-deps symlink_data
