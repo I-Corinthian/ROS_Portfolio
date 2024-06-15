@@ -11,6 +11,7 @@ reading manifest file 'blockchain_controller.egg-info/SOURCES.txt'
 writing manifest file 'blockchain_controller.egg-info/SOURCES.txt'
 running build_ext
 Creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/lib/python3.10/site-packages/blockchain-controller.egg-link (link to .)
+Installing chain_teleop script to /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/install/blockchain_controller/lib/blockchain_controller
 
 Installed /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/blockchain_controller/ros_ws/build/blockchain_controller
 running symlink_data

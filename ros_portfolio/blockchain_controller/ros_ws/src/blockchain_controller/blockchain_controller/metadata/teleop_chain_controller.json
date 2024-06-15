@@ -1,10 +1,10 @@
 {
   "source": {
-    "hash": "0x8be3dc5cd674a21ad3f1ae9a205337c7a942e1099369d914d98618d75a5a34ac",
+    "hash": "0x1651b1398c78416fb648c99482b950402107e8233b772cf15e33af53159402e0",
     "language": "ink! 5.0.0",
     "compiler": "rustc 1.79.0",
     "build_info": {
-      "build_mode": "Debug",
+      "build_mode": "Release",
       "cargo_contract_version": "4.1.1",
       "rust_toolchain": "stable-x86_64-unknown-linux-gnu",
       "wasm_opt_settings": {
@@ -37,6 +37,15 @@
             "type": {
               "displayName": [],
               "type": 2
+            }
+          },
+          {
+            "label": "speed",
+            "type": {
+              "displayName": [
+                "i32"
+              ],
+              "type": 0
             }
           }
         ],
@@ -108,6 +117,54 @@
         "args": [],
         "default": false,
         "docs": [],
+        "label": "forward",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 3
+        },
+        "selector": "0x45753c2b"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "back",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 3
+        },
+        "selector": "0x261f26d1"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "stop",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 3
+        },
+        "selector": "0x9e319d78"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
         "label": "get_linear",
         "mutates": false,
         "payable": false,
@@ -119,6 +176,22 @@
           "type": 6
         },
         "selector": "0x9cfdc051"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "get_angular",
+        "mutates": false,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 6
+        },
+        "selector": "0x0ff28b59"
       }
     ]
   },
@@ -156,6 +229,15 @@
                 }
               },
               "name": "angular"
+            },
+            {
+              "layout": {
+                "leaf": {
+                  "key": "0x00000000",
+                  "ty": 0
+                }
+              },
+              "name": "speed"
             }
           ],
           "name": "TeleopChainController"
@@ -189,6 +271,11 @@
                 "name": "angular",
                 "type": 2,
                 "typeName": "<[i32; 3] as::ink::storage::traits::AutoStorableHint<::ink::\nstorage::traits::ManualKey<1339924912u32, ()>,>>::Type"
+              },
+              {
+                "name": "speed",
+                "type": 0,
+                "typeName": "<i32 as::ink::storage::traits::AutoStorableHint<::ink::storage\n::traits::ManualKey<3988311213u32, ()>,>>::Type"
               }
             ]
           }
@@ -419,5 +506,5 @@
       }
     }
   ],
-  "version": 5
+  "version": "4"
 }
