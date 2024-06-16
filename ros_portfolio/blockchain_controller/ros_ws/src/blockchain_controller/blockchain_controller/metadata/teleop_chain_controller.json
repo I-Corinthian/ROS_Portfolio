@@ -1,6 +1,6 @@
 {
   "source": {
-    "hash": "0x1651b1398c78416fb648c99482b950402107e8233b772cf15e33af53159402e0",
+    "hash": "0x053653ed0007c6402c96c37c09357f525fd8af7825ab724ee4d9cacfae30a7e5",
     "language": "ink! 5.0.0",
     "compiler": "rustc 1.79.0",
     "build_info": {
@@ -37,15 +37,6 @@
             "type": {
               "displayName": [],
               "type": 2
-            }
-          },
-          {
-            "label": "speed",
-            "type": {
-              "displayName": [
-                "i32"
-              ],
-              "type": 0
             }
           }
         ],
@@ -149,6 +140,38 @@
         "args": [],
         "default": false,
         "docs": [],
+        "label": "left",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 3
+        },
+        "selector": "0x02f3e028"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "right",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 3
+        },
+        "selector": "0x3a54996c"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
         "label": "stop",
         "mutates": true,
         "payable": false,
@@ -160,6 +183,38 @@
           "type": 3
         },
         "selector": "0x9e319d78"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "accelerate",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 3
+        },
+        "selector": "0x5d3821a8"
+      },
+      {
+        "args": [],
+        "default": false,
+        "docs": [],
+        "label": "decelerate",
+        "mutates": true,
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "ink",
+            "MessageResult"
+          ],
+          "type": 3
+        },
+        "selector": "0x827c3941"
       },
       {
         "args": [],
