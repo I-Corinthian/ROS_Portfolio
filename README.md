@@ -135,7 +135,3 @@ For this example, deploy this [ink! contract](ros_portfolio/blockchain_controlle
 Each project includes detailed documentation, setup instructions, and usage examples to help you understand and replicate the work. Feel free to explore the repositories and try out the projects on your own setup!
 
 Thank you for visiting my portfolio. If you have any questions or feedback, please don't hesitate to reach out.
-
-Each project includes detailed documentation, setup instructions, and usage examples to help you understand and replicate the work. Feel free to explore the repositories and try out the projects on your own setup!
-
-Thank you for visiting my portfolio. If you have any questions or feedback, please don't hesitate to reach out.
