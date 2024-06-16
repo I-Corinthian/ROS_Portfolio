@@ -28,6 +28,8 @@ A simple URDF model of a differential drive robot, simulated in Gazebo and contr
 **Preview**
 ![Differential Drive Robot Sim](ros_portfolio/differential_drive_sim/ros_ws/src/dds_package/img/project1.png)
 
+[_click here for project demo_](ros_portfolio/differential_drive_sim/ros_ws/src/dds_package/img/project1.mp4)
+
 ### 2. TurtleBot3 Simulation and Navigation
 **Description:**  
 This project demonstrates navigation and obstacle avoidance for TurtleBot3 in a simulated environment using the ROS 2 navigation stack and Gazebo. It utilizes custom launch files to start mapping and subsequently use the generated map for navigation.
@@ -65,7 +67,7 @@ This project demonstrates navigation and obstacle avoidance for TurtleBot3 in a 
 **Preview**
 ![Turtlebot3 Navigation Sim](ros_portfolio/nav2_sim/ros_ws/src/turtle_nav_sim/img/project2.png)
 
-Sure, here's the write-up for your third project:
+[_click here for project demo_](ros_portfolio/nav2_sim/ros_ws/src/turtle_nav_sim/img/project2.mp4)
 
 ### 3. ROS 2 Blockchain-Based Robot Control
 **Description:**  
@@ -128,11 +130,7 @@ For this example, deploy this [ink! contract](ros_portfolio/blockchain_controlle
 **Preview**
 ![Blockchain-Based Robot Control](ros_portfolio/blockchain_controller/ros_ws/src/blockchain_controller/img/project3.png)
 
-<video controls>
-    <source src="ros_portfolio/blockchain_controller/ros_ws/src/blockchain_controller/img/project3.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
+[_click here for project demo_](ros_portfolio/blockchain_controller/ros_ws/src/blockchain_controller/img/project3.mp4)
 
 Each project includes detailed documentation, setup instructions, and usage examples to help you understand and replicate the work. Feel free to explore the repositories and try out the projects on your own setup!
 
