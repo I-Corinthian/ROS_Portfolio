@@ -60,10 +60,83 @@ This project demonstrates navigation and obstacle avoidance for TurtleBot3 in a 
    ros2 launch turtle_nav_sim nav2_sim.launch.py 
    ```   
 
-- The above Launch file assumes the path the map was saves is [ros_portfolio/nav2_sim/ros_ws/src/turtle_nav_sim/map]
+- The above Launch file assumes path the map was saved is [ros_portfolio/nav2_sim/ros_ws/src/turtle_nav_sim/map]
 
 **Preview**
 ![Turtlebot3 Navigation Sim](ros_portfolio/nav2_sim/ros_ws/src/turtle_nav_sim/img/project2.png)
+
+Sure, here's the write-up for your third project:
+
+### 3. ROS 2 Blockchain-Based Robot Control
+**Description:**  
+This project integrates blockchain technology with ROS 2 to control a robot. The `blockchain_controller` package includes a node named `chain_teleop` that connects to a locally running Substrate blockchain. It retrieves state data from an ink! contract deployed on the blockchain, which outputs linear and angular values for a `Twist` message. These values are then published to the `cmd_vel` topic, enabling blockchain-based control of the robot.
+
+**Key Features:**
+- **Blockchain Integration:** Utilizes blockchain technology to fetch control commands from a smart contract, demonstrating a novel approach to robot control.
+- **Substrate and ink!:** Leverages Substrate for blockchain development and ink! for writing the smart contract that provides the control commands.
+- **ROS 2 Node Communication:** Implements a ROS 2 node that communicates with the blockchain, retrieves data, and publishes the corresponding velocity commands.
+- **Decentralized Control:** Highlights the potential of decentralized systems in robotics, ensuring secure and tamper-proof command and control mechanisms.
+
+**Skills Demonstrated:**
+- **Blockchain Proficiency:** Knowledge and experience with blockchain technologies, particularly Substrate and ink! for smart contract development.
+- **ROS 2 Expertise:** Advanced understanding of ROS 2, including creating nodes, publishing/subscribing to topics, and integrating external data sources.
+- **Innovative Control Methods:** Exploration of new methods for robot control, showcasing the integration of emerging technologies with traditional robotics frameworks.
+- **Smart Contract Development:** Ability to develop and deploy smart contracts that interact with robotics systems.
+- **System Integration:** Demonstrates the ability to integrate blockchain technology with ROS 2 for practical applications in robotics.
+
+#### 1. Deploy the ink! Contract
+
+   Certainly! Here's a small summary for setting up a Substrate contract node and deploying an ink! contract, along with links to Substrate documentation for further details:
+
+#### Setting Up a Substrate Contract Node and Deploying an ink! Contract
+
+1. **Setting Up a Substrate Node:**
+   - Install Substrate by following the instructions provided in the [Substrate Developer Hub](https://substrate.dev/docs/en/).
+   - Initialize your Substrate node with the appropriate runtime environment for smart contracts.
+
+2. **Developing an ink! Smart Contract:**
+   - Create your ink! smart contract using the [ink! Smart Contract Tutorial](https://substrate.dev/substrate-contracts-workshop/#/).
+   - Ensure your contract includes the necessary logic to output control commands (linear and angular values for `Twist` messages in this case).
+
+3. **Compiling and Deploying the ink! Contract:**
+   - Compile your ink! smart contract using the ink! CLI tools.
+   - Deploy the compiled contract to your local Substrate node or a testnet.
+   - Verify the deployment and interaction capabilities of your contract.
+
+For this example, deploy this [ink! contract](ros_portfolio/blockchain_controller/ros_ws/src/blockchain_controller/contracts/teleop_chain_controller.contract) directly to the locally running Substrate node.
+
+#### Resources:
+- [Substrate Developer Hub](https://substrate.dev/docs/en/): Comprehensive documentation for setting up and deploying Substrate nodes.
+- [ink! Smart Contract Tutorial](https://substrate.dev/substrate-contracts-workshop/#/): Step-by-step guide for developing ink! smart contracts.
+- [ink! Documentation](https://paritytech.github.io/ink/): Detailed reference for ink! smart contract development and deployment.
+
+#### 2. Launch the gazebo with the bot
+
+   ```bash
+   ros2 launch dds_package launch_gazebo_sim.launch.py
+   ```
+
+#### 3. Launch the Blockchain Controller Node
+
+   ```bash
+   ros2 run blockchain_controller chain_teleop --contract_address "contract address here"
+   ```
+
+- Ensure that the Substrate blockchain is running locally and the ink! contract is deployed correctly.
+- The `chain_teleop` node will automatically connect to the blockchain, retrieve the necessary data, and publish the velocity commands to `cmd_vel`.
+
+**Preview**
+![Blockchain-Based Robot Control](ros_portfolio/blockchain_controller/ros_ws/src/blockchain_controller/img/project3.png)
+
+<video controls>
+    <source src="ros_portfolio/blockchain_controller/ros_ws/src/blockchain_controller/img/project3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+Each project includes detailed documentation, setup instructions, and usage examples to help you understand and replicate the work. Feel free to explore the repositories and try out the projects on your own setup!
+
+Thank you for visiting my portfolio. If you have any questions or feedback, please don't hesitate to reach out.
 
 Each project includes detailed documentation, setup instructions, and usage examples to help you understand and replicate the work. Feel free to explore the repositories and try out the projects on your own setup!
 
