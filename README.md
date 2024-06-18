@@ -13,7 +13,7 @@ A simple URDF model of a differential drive robot, simulated in Gazebo and contr
    ```bash
    ros2 launch dds_package launch_gazebo_sim.launch.py
    ```
-#### 2. Run Teleop_Keybord
+#### 2. Run Teleop_Keyboard
 
    ```bash
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
@@ -48,21 +48,21 @@ This project demonstrates navigation and obstacle avoidance for TurtleBot3 in a 
 - **Launch File Creation:** Proficiency in creating and managing custom ROS 2 launch files to streamline complex robot operations.
 - **Problem-Solving:** Demonstrates the ability to integrate multiple components and solve practical robotics problems.
 
-#### 1. Launch Map genration 
+#### 1. Launch Map generation 
 
    ```bash
    ros2 launch turtle_nav_sim slam_map_genarate.launch.py
    ```
    ```bash
-   ros2 run nav2_map_server map_saver_cli -f {path to save the genrated map}
+   ros2 run nav2_map_server map_saver_cli -f {path to save the generated map}
    ```
-#### 2. launch Turtlebot3 sim for navigation
+#### 2. Launch TurtleBot3 Sim for Navigation
 
    ```bash
    ros2 launch turtle_nav_sim nav2_sim.launch.py 
    ```   
 
-- The above Launch file assumes path the map was saved is [ros_portfolio/nav2_sim/ros_ws/src/turtle_nav_sim/map]
+- The above launch file assumes the path the map was saved is [ros_portfolio/nav2_sim/ros_ws/src/turtle_nav_sim/map]
 
 **Preview**
 ![Turtlebot3 Navigation Sim](ros_portfolio/nav2_sim/ros_ws/src/turtle_nav_sim/img/project2.png)
@@ -112,7 +112,7 @@ For this example, deploy this [ink! contract](ros_portfolio/blockchain_controlle
 - [ink! Smart Contract Tutorial](https://substrate.dev/substrate-contracts-workshop/#/): Step-by-step guide for developing ink! smart contracts.
 - [ink! Documentation](https://paritytech.github.io/ink/): Detailed reference for ink! smart contract development and deployment.
 
-#### 2. Launch the gazebo with the bot
+#### 2. Launch the Gazebo with the Bot
 
    ```bash
    ros2 launch dds_package launch_gazebo_sim.launch.py
