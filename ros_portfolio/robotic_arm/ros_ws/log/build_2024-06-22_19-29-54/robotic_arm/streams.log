@@ -1,0 +1,18 @@
+[0.548s] Invoking command in '/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm': PYTHONPATH=/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/prefix_override:/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/build --no-deps symlink_data
+[0.789s] running develop
+[0.789s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.789s]   warnings.warn(
+[0.960s] running egg_info
+[0.960s] writing robotic_arm.egg-info/PKG-INFO
+[0.960s] writing dependency_links to robotic_arm.egg-info/dependency_links.txt
+[0.960s] writing entry points to robotic_arm.egg-info/entry_points.txt
+[0.960s] writing requirements to robotic_arm.egg-info/requires.txt
+[0.960s] writing top-level names to robotic_arm.egg-info/top_level.txt
+[0.962s] reading manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[0.962s] writing manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[0.963s] running build_ext
+[0.964s] Creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/lib/python3.10/site-packages/robotic-arm.egg-link (link to .)
+[0.964s] 
+[0.964s] Installed /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm
+[0.964s] running symlink_data
+[0.987s] Invoked command in '/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm' returned '0': PYTHONPATH=/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/prefix_override:/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/build --no-deps symlink_data
