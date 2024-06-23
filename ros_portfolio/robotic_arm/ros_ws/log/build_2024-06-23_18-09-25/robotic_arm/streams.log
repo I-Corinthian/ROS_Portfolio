@@ -1,0 +1,47 @@
+[0.586s] Invoking command in '/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm': PYTHONPATH=/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/prefix_override:/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/build --no-deps symlink_data
+[0.846s] running develop
+[0.846s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.846s]   warnings.warn(
+[1.033s] running egg_info
+[1.033s] creating robotic_arm.egg-info
+[1.033s] writing robotic_arm.egg-info/PKG-INFO
+[1.033s] writing dependency_links to robotic_arm.egg-info/dependency_links.txt
+[1.033s] writing entry points to robotic_arm.egg-info/entry_points.txt
+[1.033s] writing requirements to robotic_arm.egg-info/requires.txt
+[1.033s] writing top-level names to robotic_arm.egg-info/top_level.txt
+[1.033s] writing manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[1.035s] reading manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[1.036s] writing manifest file 'robotic_arm.egg-info/SOURCES.txt'
+[1.037s] running build_ext
+[1.037s] Creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/lib/python3.10/site-packages/robotic-arm.egg-link (link to .)
+[1.038s] 
+[1.039s] Installed /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm
+[1.039s] running symlink_data
+[1.039s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/ament_index
+[1.039s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/ament_index/resource_index
+[1.039s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/ament_index/resource_index/packages
+[1.039s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/resource/robotic_arm -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/ament_index/resource_index/packages
+[1.039s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/package.xml -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm
+[1.039s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/description
+[1.039s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/description/arm.urdf.xacro -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/description
+[1.039s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/config
+[1.039s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/config/ros2_controllers.yaml -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/config
+[1.039s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/base_plate.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/basement.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/plate.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/claw_support.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/round_plate.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/link.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/right_finger.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/forward_drive_arm.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/horizontal_arm.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/triangular_link.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/servo_plate.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.040s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/left_finger.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.041s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/assets/vertical_drive_arm.STL -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/assets
+[1.041s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/launch
+[1.041s] symbolically linking /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/launch/robotic_arm_gazebo.launch.py -> /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/launch
+[1.041s] creating /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/share/robotic_arm/models
+[1.041s] error: can't copy '/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/models/sun': doesn't exist or not a regular file
+[1.068s] Invoked command in '/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm' returned '1': PYTHONPATH=/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/prefix_override:/home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/install/robotic_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/icorinthian/Documents/ros/git/ROS_Portfolio/ros_portfolio/robotic_arm/ros_ws/build/robotic_arm/build --no-deps symlink_data
